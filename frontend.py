@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Set your backend URL base
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "https://brain-gpt.onrender.com/"
 
 st.title("🧠 Docu-Query AI Assistant")
 st.subheader("FastAPI + LangChain + Streamlit RAG Pipeline")
